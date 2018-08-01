@@ -72,7 +72,7 @@
         <h2 class="card-subtitle mb-2 text-muted">General</h2>
         <p class="card-text ">This webservice can be used freely but without guarantee to work. I am keeping it online since more than 2 years now. But downtimes are possible and i am not always home to fix it :) Please do not hesitate to send me ideas to improve the service!
           <a href="segler_alex@web.de">segler_alex AT web DOT de</a> PLEASE
-          <br/>Send a <span class="text-danger">descriptive User-Agent</span> in your HTTP requests. This makes it easier for me to get in touch with developers to help with the usage of the API. Something like <span class="text-info">"appname/appversion"</span>          so for example<span class="text-info"> "Cool Radio App/1.2".</span> This also helps me to know which apps are using this service that I can keep the list of apps up to date, so that I can tell people in which ways they can use this service.<br/>          If you know an app that is using this service which is not listed on <a class="badge badge-info" href="http://www.radio-browser.info">www.radio-browser.info</a> please drop me a note.<br/>Thank you! At the moment this service checks radio stations
+          <br/>Send a <span class="text-danger">descriptive User-Agent</span> in your HTTP requests. This makes it easier for me to get in touch with developers to help with the usage of the API. Something like <span class="text-info">"appname/appversion"</span>          so for example<span class="text-info"> "Cool Radio App/1.2".</span> This also helps me to know which apps are using this service that I can keep the list of apps up to date, so that I can tell people in which ways they can use this service.<br/>          If you know an app that is using this service which is not listed on <a href="http://www.radio-browser.info">www.radio-browser.info</a> please drop me a note.<br/>Thank you! At the moment this service checks radio stations
           by connecting to them at least every day and marks them accordingly. (LastCheckOK=0/1)<br/> If you do not find here what you were looking for, please create a feature request on Github or if you are a programmer fork it and make a pull request.
           Thanks for your help! Recent changes can be found in the Changelog.</p>
         <hr class="my-4">
@@ -496,7 +496,7 @@
 
     <div class="jumbotron mt-2 shadow p-3 mb-5" id="List_of_radio_stations">
       <h1 class="display-4">List of radio stations</h1>
-      <p class="lead">Will get a list of radio stations that match the search. The variants with "exact" will only search for perfect matches. The others will match if the station attribute contains the searchterm.<br/> Please use <a href="#Playable_station_url">Playable station url</a>        API call to get the real station url and also let the click be counted, supported output formats: JSON, XML, M3U, PLS, XSPF, TTL</p>
+      <p class="lead">Will get a list of radio stations that match the search. The variants with "exact" will only search for perfect matches. The others will match if the station attribute contains the searchterm.<br/> Please use <a class="font-weight-bold" href="#Playable_station_url">Playable station url</a>        API call to get the real station url and also let the click be counted, supported output formats: JSON, XML, M3U, PLS, XSPF, TTL</p>
       <hr class="my-4">
       <div class="h5">Syntax:</div>
       <div class="syntax">
@@ -568,7 +568,7 @@
     </div>
     <div class="jumbotron mt-2 shadow p-3 mb-5" id="List_of_all_radio_stations">
       <h1 class="display-4">List of all radio stations</h1>
-      <p class="lead">Will get a list of all radio stations. Please use <a href="#Playable_station_url">Playable station url</a> API call to get the real station url and also let the click be counted, supported output formats: JSON, XML, M3U, PLS, XSPF, TTL</p>
+      <p class="lead">Will get a list of all radio stations. Please use <a class="font-weight-bold" href="#Playable_station_url">Playable station url</a> API call to get the real station url and also let the click be counted, supported output formats: JSON, XML, M3U, PLS, XSPF, TTL</p>
       <hr class="my-4">
       <div class="h5">Syntax:</div>
       <div class="syntax">
@@ -705,7 +705,7 @@
       </ul>
     </div>
 
-    <div class="jumbotron mt-2 shadow p-3 mb-5" id="station_url" id="Playable_station_url">
+    <div class="jumbotron mt-2 shadow p-3 mb-5" id="Playable_station_url">
       <h1 class="display-4">Playable station url</h1>
       <p class="lead">Returns the playable url for the station. Any Playlist (PLS, ASX, M3U) decoding will be done for you. This API call will count as a click on the station, supported output formats: JSON, XML ,PLS ,M3U</p>
       <hr class="my-4">
@@ -751,7 +751,7 @@
 
     <div class="jumbotron mt-2 shadow p-3 mb-5" id="Advanced_station_search">
       <h1 class="display-4">Advanced station search</h1>
-      <p class="lead">Will get a list of radio stations that match the search. It will match if the station attribute contains the searchterm. Please use <a href="#Playable_station_url">Playable station url</a> API call to get the real station url and also let the click
+      <p class="lead">Will get a list of radio stations that match the search. It will match if the station attribute contains the searchterm. Please use <a class="font-weight-bold" href="#Playable_station_url">Playable station url</a> API call to get the real station url and also let the click
         be counted, supported output formats: JSON, XML, M3U, PLS, XSPF, TTL</p>
       <hr class="my-4">
       <div class="h5">Syntax:</div>
